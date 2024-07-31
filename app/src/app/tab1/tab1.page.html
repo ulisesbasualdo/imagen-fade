@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-input placeholder="Título (opcional)" ngModel="title"></ion-input>
+<ion-textarea placeholder="Descripción (opcional)" ngModel="description"></ion-textarea>
+<ion-input placeholder="Nombre de Marca (opcional)" ngModel="brandName"></ion-input>
+
+  </ion-header>
+
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>

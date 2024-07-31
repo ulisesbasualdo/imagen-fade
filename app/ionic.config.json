@@ -1,0 +1,7 @@
+{
+  "name": "imagen-fade",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
